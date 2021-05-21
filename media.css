@@ -1,0 +1,766 @@
+@media(max-width:1139px){
+    .people__card_block{
+        display: none;
+    }
+    .card__buy_block{
+        display: none;
+    }
+    .main__img{
+        width: 525px;
+    }
+    .img__header{
+        width: 496px;
+    }
+    .footer__line_li{
+        width: 1000px;
+    }
+    .carousel-control-prev-icon {
+        width: 61px;
+        height: 93px;
+    }
+    .carousel-control-next-icon {
+        width: 61px;
+        height: 93px;
+    }
+    .inform__img{
+        width: 400px;
+    }
+    .contact__img{
+        width: 400px;
+    }
+    .columns__text {
+width: 245px;
+    }
+    .img__columns {
+        width: 256px;
+        height: 180px;
+    }
+    .buy__cards {
+        justify-content: space-evenly;
+    }
+    .people__our_cards {
+        justify-content: space-around;
+    }
+    .people__card {
+        padding: 23px 58px;
+        
+    }
+    .card__text {
+        width: 230px;
+        
+    }
+    
+}
+@media(max-width:1109px){
+    .main__content_img img{
+      width: 90px;
+    }
+    .footer__line_li {
+        width: 885px;
+    }
+    
+}
+@media (max-width:1096px) {
+    .img__header {
+        width: 476px;
+        height: 331px;
+    }
+}
+@media (max-width:1087px) {
+    .numbers__columns{
+        justify-content: space-evenly;
+    }
+    .numbers__columns {
+        border: 2px solid #EEEEEE;
+        box-sizing: border-box;
+        padding: 43px 55px;
+    }
+    .card__columns {
+        
+        padding: 1px 29px 38px 16px;
+        
+    }
+    .people__our_cards {
+        justify-content: space-evenly;
+    }
+    .main__contact_text {
+        width: 296px;
+        margin-bottom: 42px;
+        line-height: 139%;
+       
+    }
+    .main__contact_title {
+        font-size: 40px;
+       
+    }
+    .main__img {
+        width: 479px;
+    }
+}
+@media (max-width:1020px) {
+    .main__img {
+        width: 426px;
+    }
+    .main__content {
+        padding-top: 50px;
+    }
+    .header__title {
+        font-size: 42px;
+        line-height: 59px; 
+    }
+    .img__header {
+        width: 450px;
+        height: 301px;
+    
+}
+}
+@media (max-width:995px) {
+    .footer__line_li {
+        width: 633px;
+    }
+    .menu-btn{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #F25822;
+    position: relative;
+}
+.nav__list_link{
+    transition: 0.5s;
+    transform-origin: right center;
+    transform: scaleX(0) translateX(20%);
+    opacity: 0;
+}
+.nav{
+    align-items: none;
+}
+}
+@media (max-width:994px) {
+    .nav__list_link{
+        transition: 0.5s;
+        transform-origin: right center;
+        transform: scaleX(0) translateX(20%);
+        /* opacity: 0; */
+    }
+    .nav__list_link_active{
+        transform: scaleX(1) translateX(0%);
+        opacity: 1;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .nav__link_get{
+        margin-top: 20px;
+    }
+    .nav__logo{
+        margin-bottom: 10px;
+    }
+    .menu-btn_active span::before {
+        transform: rotate(-45deg);
+        transform-origin: center;
+        width: 20px;
+        
+    }
+    .menu-btn_active span {
+        height: 0;
+    }
+    .menu-btn_active span::after {
+     transform: rotate(45deg);
+     width: 20px;
+        transform-origin: center;
+    }
+      .main__content {
+          margin-bottom: 50px;
+      }
+    
+}
+@media (max-width:992px) {
+    .main__information {
+     flex-direction: column;
+    }
+    .card__columns_block{
+        display: none;
+    }
+    .main__cards_block {
+      display: none;
+        
+    }
+    .header__content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__left{
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .header__title{
+        text-align: center;
+        background-position:center;
+ 
+    }
+    .number__text {
+        font-weight: bold;
+       
+        font-family: Arial;
+        font-size: 52px;
+        line-height: 150%;
+        color: #666666;
+        margin-bottom: 0px;
+    }
+    .number__title{
+         width: 90px;
+         text-align: center;
+    }
+    .number_li {
+        margin-left: 0px;
+    }
+    .main__contact_links{
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+
+    .img__header{
+        margin-top: 60px;
+    }
+    .card__buy_text {
+        width: 209px;
+    }
+    .main__content{
+        flex-direction: column;
+    }
+    .main__content_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__text{
+        text-align: center;
+    }
+
+   .footer__content{
+       flex-wrap: wrap;
+   }
+   .footer__block_2{
+       display: none;
+   }
+   .people__card {
+    padding: 23px 43px;
+}
+}
+@media (max-width:865px) {
+    .main__contanct_save{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main__contact_text{
+        text-align: center;
+        width: 400px;
+    }
+    .main__contact_title{
+        text-align: center;
+    }
+    .main__contact_href{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__link1{
+        display: inline-block;
+    }
+    .main__contact_links{
+        margin-bottom: 20px;
+    }
+    .contact__img{
+        width: 494px;
+        margin-top: 40px;
+    }
+    .buy__title {
+        padding-top: 0px;
+    }
+    .people__card_block{
+        display: flex;
+    }
+    .people__our_cards{
+        flex-wrap: wrap;
+    }
+    .people__card {
+        padding: 23px 60px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:770px) {
+    .buy__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card__buy{
+        margin-bottom: 20px;
+}
+.people__card {
+    padding: 31px 44px;
+    margin-bottom: 20px;
+}
+.text__carusel {
+    width: 354px;
+
+}
+.main{
+    padding-bottom: 0px;
+}
+.footer__block_2{
+  display: block;
+}
+.cards__our_img{
+    margin-bottom: 30px;
+}
+.footer__line_li {
+    width: 460px;
+}
+.footer__title_block {
+    margin-bottom: 3px;
+}
+.number__text {
+    font-size: 38px;
+}
+.number__text{
+    text-align: center;
+}
+.card__buy {
+    padding: 56px 83px 43px 89px;
+
+}
+.send__our{
+    padding-top: 0px;
+}
+.main__columns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card__columns {
+ margin-bottom: 40px;
+    padding: 7px 77px 51px 74px;
+}
+.main_card {
+    padding: 29px 24px 25px 26px;
+}
+}
+@media (max-width:620px) {
+    .main_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius:40px ;
+        margin-bottom: 20px;
+        background: #fafafaa4;
+    }
+    .main__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card__text{
+        text-align: center;
+    }
+    .description__text{
+        width: 500px;
+        text-align: center;
+    }
+    .main__content_img {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .main__content_img img {
+        width: 108px;
+
+    }
+    .main__title{
+        text-align: center;
+    }
+}
+@media (max-width:590px) {
+    .inform__description_text {
+        width: 280px;
+    }
+    .inform__title {
+        font-size: 37px;
+    }
+    .inform__text {
+        width: 411px;
+        
+    }
+    .text__carusel {
+        width: 292px;
+    }
+    
+    .carousel-control-prev-icon {
+       display: none;
+    }
+    .carousel-control-next-icon {
+       display: none;
+    }
+    .footer__block_2{
+        display: none;
+    }
+    .footer__block_3{
+        display: none;
+    }
+    .footer__block_text {
+        margin-top: 12px;
+     
+    }
+    .footer__line_li {
+        width: 387px;
+    }
+    .footer__line{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .people__title {
+        font-size: 38px;
+     
+    }
+    .people__our_title {
+        margin-bottom: 45px;
+        width: 373px;
+    
+    }
+    .buy__cards{
+        padding-bottom: 40px;
+    }
+}
+@media (max-width:520px) {
+    .header__title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .header__text {
+        width: 325px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .main__text {
+        width: 421px; 
+    }
+    .main__title {
+        font-size: 41px;
+        line-height: 46px;
+        margin-bottom: 20px;
+        width: 400px;
+    }
+    
+    .description__title {
+        font-size: 37px;
+        line-height: 53px;
+    }
+    .description__text {
+        width: 379px;
+        text-align: center;
+    }
+    .footer__block_text {
+        width: 215px;
+       
+    }
+    .footer{
+        padding-top: 30px;
+    }
+    .contact__img {
+        width: 418px;
+        margin-top: 40px;
+    }
+    .people__card {
+        padding: 31px 32px;
+        margin-bottom: 23px;
+    }
+    .main__carusel_conetnt {
+        padding-top: 0px;
+    }
+    .carousel-inner {
+        padding: 15px 2px;
+    }
+}
+@media (max-width:480px) {
+    .header__title {
+        font-size: 27px;
+        line-height: 39px;
+    }
+    .img__header {
+        width: 356px;
+        height: 248px;
+    }
+    .main__content_img {
+        padding-top: 67px;
+    }
+    .main__img {
+        width: 409px;
+    }
+    .main__description{
+        padding-top: 40px;
+    }
+    .card__columns {
+        margin-bottom: 40px;
+        padding: 7px 50px 36px 45px;
+    }
+    .inform__title {
+        font-size: 32px;
+    }
+    .contact__img {
+        width: 400px;
+        margin-top: 50px;
+    }
+    .main__contanct_save {
+        padding-bottom: 70px;
+    }
+    .inform__description {
+        margin-left: 15px;
+    }
+    .inform__description_text {
+        width: 211px;
+    }
+    .number__text {
+        font-size: 34px;
+    }
+    .number__title {
+        width: 80px;
+        text-align: center;
+    }
+    .number__title {
+        font-size: 16px;
+}
+
+.main__contact_title {
+    font-size: 36px;
+}
+.footer__content{
+    flex-direction: column;
+    align-items: center;
+}
+.footer__block_text{
+     text-align: center;
+}
+   .footer__title_block{
+       text-align: center;
+   }
+   .cards__our_img{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .nav__list_link {
+    font-family: 'Girassol';
+    font-size: 15px;
+    line-height: 16px;
+    margin-right: 20px;
+    color: #000000;
+}
+}
+@media (max-width:428px) {
+    .main__title {
+        font-size: 37px;
+        line-height: 46px;
+        margin-bottom: 20px;
+        width: 335px;
+    }
+    .menu-btn{
+        margin-top: 20px;
+    }
+    .nav {
+        flex-direction: column-reverse;
+    }
+    .main__text {
+        width: 351px;
+    }
+    .main__img {
+        width: 355px;
+    }
+    .description__title {
+        font-size: 30px;
+        line-height: 53px;
+    }
+    .description__text {
+        width: 326px;
+        text-align: center;
+    }
+    .inform__title {
+        font-size: 29px;
+    }
+    .inform__text {
+        width: 316px;
+    }
+    .inform__img {
+        width: 346px;
+    }
+    .inform__card_img {
+        width: 64px;
+        height: 58px;
+    }
+    .numbers__columns{
+        flex-wrap: wrap;
+    }
+    .contact__img {
+        width: 355px;
+        margin-top: 50px;
+    }
+    .card__buy {
+        padding: 43px 67px 28px 58px;
+    }
+    .buy__title_thin {
+        margin-bottom: 38px;
+        color: #666666;
+    }
+
+}
+@media (max-width:413px) {
+    .people__card {
+        padding: 31px 59px;
+        margin-bottom: 23px;
+    }
+}
+@media (max-width:409px) {
+    .nav__list{
+        flex-wrap: wrap;
+    justify-content: center;
+        align-items: center;
+    }
+    .nav__list_link {
+     font-size: 22px;
+       
+    }
+    .header__title {
+        font-size: 24px;
+        line-height: 39px;
+    }
+    .img__header {
+        width: 328px;
+        height: 216px;
+    }
+    .main__title {
+        font-size: 35px;
+        line-height: 46px;
+        margin-bottom: 14px;
+        width: 335px;
+    }
+    .main__img {
+        width: 324px;
+    }
+    .card__columns {
+        margin-bottom: 40px;
+        padding: 7px 37px 36px 33px;
+    }
+    .inform__img {
+        width: 315px;
+    }
+    .inform__title {
+        line-height: 37px;
+        font-size: 25px;
+    }
+    .main__cards{
+        padding-bottom: 40px;
+    }
+    .inform__card {
+        padding: 24px 49px 25px 21px;
+
+    }
+    .main__contact_title {
+        font-size: 28px;
+    }
+    .main__contact_text {
+        text-align: center;
+        width: 312px;
+    }
+    .contact__img {
+        width: 337px;
+        margin-top: 50px;
+    }
+    .buy__title {
+        font-size: 41px;
+    }
+    .people__card {
+        padding: 48px 63px;
+        margin-bottom: 23px;
+    }
+    .people__our_title {
+        margin-bottom: 45px;
+        width: 302px;
+    }
+    .footer__line_li {
+        width: 317px;
+    }
+    .footer__title_end {
+        font-size: 14px;
+    }
+    .main__information{
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:366px) {
+    .img__header {
+        width: 300px;
+        height: 186px;
+    }
+    .main__text {
+        width: 276px;
+    }
+    .main__img {
+        width: 309px;
+    }
+    .description__title {
+        font-size: 28px;
+        line-height: 25px;
+    }
+    .description__text {
+        width: 286px;
+        text-align: center;
+    }
+    .card__columns {
+        margin-bottom: 40px;
+        padding: 7px 28px 30px 25px;
+    }
+    .main__description{
+        padding-bottom: 30px;
+    }
+    .inform__title {
+        line-height: 30px;
+        font-size: 21px;
+    }
+    .inform__text {
+        width: 288px;
+    }
+    .inform__img {
+        width: 291px;
+    }
+    .inform__card {
+        padding: 24px 30px 15px 20px;
+    }
+    .contact__img {
+        width: 299px;
+        margin-top: 50px;
+    }
+    .card__buy {
+        padding: 43px 42px 28px 48px;
+    }
+    .text__carusel {
+        font-size: 14px;  
+    }
+    .carousel-indicators li {
+        width: 17px;
+        height: 1px;
+       
+    }
+    .carousel-indicators li {
+        background: #ccc5c2;
+        width: 14px;
+        height: -10px;
+        border-radius: 40px;
+    }
+    .footer__line_li {
+        width: 255px;
+    }
+}
